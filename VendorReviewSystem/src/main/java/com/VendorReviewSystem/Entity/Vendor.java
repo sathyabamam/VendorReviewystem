@@ -10,6 +10,13 @@ public class Vendor {
 	private String cusinetype;
 	private String uploadmenucard;
 	private String uploadphoto;
+	private String status;
+	public String getStatus() {
+		return status;
+	}
+	public void setStatus(String status) {
+		this.status = status;
+	}
 	public int getVendorid() {
 		return vendorid;
 	}
