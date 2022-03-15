@@ -5,11 +5,12 @@ public class Foodie {
 	private int id;
 	private String firstname;
 	private String lastname;
+	private String password;
 	private String passwordconfirm;
-	private String passwordemailid;
+	private String emailid;
 	private int dob;
 	private String gender;
-	private int mobileno;
+	private int mobile;
 	public int getId() {
 		return id;
 	}
@@ -28,17 +29,23 @@ public class Foodie {
 	public void setLastname(String lastname) {
 		this.lastname = lastname;
 	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
 	public String getPasswordconfirm() {
 		return passwordconfirm;
 	}
 	public void setPasswordconfirm(String passwordconfirm) {
 		this.passwordconfirm = passwordconfirm;
 	}
-	public String getPasswordemailid() {
-		return passwordemailid;
+	public String getEmailid() {
+		return emailid;
 	}
-	public void setPasswordemailid(String passwordemailid) {
-		this.passwordemailid = passwordemailid;
+	public void setEmailid(String emailid) {
+		this.emailid = emailid;
 	}
 	public int getDob() {
 		return dob;
@@ -52,11 +59,11 @@ public class Foodie {
 	public void setGender(String gender) {
 		this.gender = gender;
 	}
-	public int getMobileno() {
-		return mobileno;
+	public int getMobile() {
+		return mobile;
 	}
-	public void setMobileno(int mobileno) {
-		this.mobileno = mobileno;
+	public void setMobile(int mobile) {
+		this.mobile = mobile;
 	}
 	
 	
