@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Review</title>
+</head>
+<body style="background-color:rgb(252, 246, 250); background-image:url('https://wallpaperaccess.com/full/497913.jpg'); background-size: 100% ;">
+    
+    
+           <h1 style="border: 1px;color: rgb(130, 0, 134);text-align: center;text-decoration: dashed;font-style: oblique;"> Reviews Given By Foodie</h1>
+       
+       <table style="margin-left: 10% ;font-size: x-large;border-style: outset;" class="tblbdy">
+          <tr style="background-color: rgb(130, 3, 161);color: rgb(247, 111, 235);font-style: oblique;">
+            <th>Foodie Id&nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th>Foodie Name&nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th>Phone Number&nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th>Date of Visit&nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th>Date of Review&nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th>Review&nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th>Rating&nbsp;&nbsp;&nbsp;&nbsp;</th>
+        </tr>
+    </table>
+</body>
+</html>
